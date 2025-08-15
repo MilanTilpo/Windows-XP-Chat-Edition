@@ -743,7 +743,7 @@ _this2.userPublic.color_cross.match(/gffgfghjghj/g)) {
                                                             text = parseAudioTag(text).cleanText;
                                                             say = parseAudioTag(say).cleanText;
 
-                                                        if (useSapi5) {
+                                                        } else if (useSapi5) {
 
                                                             this.$dialog.css("display", "none");
                                                             window.speechSynthesis.cancel();
