@@ -263,7 +263,7 @@ const Ban = require("./ban.js");
 Ban.init();
 // Start actually listening
 server.listen(port, function() {
-  console.log(" Welcome to Microsoft Windows XP Chat Edition!\n", "HTTP Express Server listening on port " + port + "\n", "=+.----------------*-<|{ Logs }|>-*----------------.+=\n");
+  console.log(" Welcome to Windows XP Chat Edition!\n", "HTTP Express Server listening on port " + port + "\n", "=+.----------------*-<|{ Logs }|>-*----------------.+=\n");
 });
 app.use(express.static(__dirname + "/public"));
 
